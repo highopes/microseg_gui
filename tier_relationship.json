@@ -1,0 +1,20 @@
+{
+  "Web": {
+    "app2web": [
+      "consume"
+    ]
+  },
+  "App": {
+    "db2app": [
+      "consume"
+    ],
+    "app2web": [
+      "provide"
+    ]
+  },
+  "DB": {
+    "db2app": [
+      "provide"
+    ]
+  }
+}
