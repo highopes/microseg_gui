@@ -20,7 +20,7 @@ Optional
 
 ## Usage
 
-Run the script with ‘python microseg.py’ directly, a window will show. Input the name of tenant, the application profile and the base EPG you want to be cut into mico-segments (or sub-EPGs). If the application is under AppDynamics(AppD)’s monitor, just give the name of the application in AppDynamics. If the application name omits, you will need JSON files for manual application definition. 
+Run the script with ‘python microseg_gui.py’ directly, a window will show (Integrated in ACI App Center is on the roadmap). Input the name of tenant, the application profile and the base EPG you want to be cut into mico-segments (or sub-EPGs). If the application is under AppDynamics(AppD)’s monitor, just give the name of the application in AppDynamics. If the application name omits, you will need JSON files for manual application definition. 
 For example:
 * ‘app_mapping.json’ for application tiers/hosts mapping
 ```json
