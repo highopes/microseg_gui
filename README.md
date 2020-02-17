@@ -11,9 +11,9 @@ The microseg_gui dosen't need to install. It's a python script directly running 
 ## Environment
 
 Required <br>
-* Python 3.4+ <br>
+* Python 3+ <br>
 * ACI and compatible ACI Cobra SDK (e.g. support microsegmentation feature of ACI) <br>
-* All endpoints you want to deploy into sub-EPGs should be pre-configed in the same base EPG which associates to one Bridge Domain. It doesn’t care the number of subnets (EPs could belong to one or more subnets). <br>
+* All endpoints you want to deploy into sub-EPGs should be pre-configed in the same base EPG which associates to one Bridge Domain. It doesn’t care the number of subnets (EPs could belong to one or more subnets) or the type of endpoints (can be VMware or bare metal, other hypervisors have not been validated) . <br>
 
 Optional
 * AppDynamics 4.3+ with Network Visibility Agents deployed
