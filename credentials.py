@@ -1,13 +1,7 @@
-'''
-URL = 'https://sandboxapicdc.cisco.com'
+URL = 'http://yourAPIC'
 LOGIN = 'admin'
-PASSWORD = 'ciscopsdt'
-'''
+PASSWORD = 'yourpassword'
 
-URL = 'http://10.75.53.131'
-LOGIN = 'hangwe'
-PASSWORD = 'cisco.123'
-
-APPD_URL = "http://10.75.53.97:8090"
-APPD_LOGIN = "admin@customer1"
-APPD_PASS = "admin"
+APPD_URL = "http://yourAppD:8090"
+APPD_LOGIN = "yourname@customer1"
+APPD_PASS = "yourpassword"
